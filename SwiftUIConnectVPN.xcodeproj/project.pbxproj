@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6ADE3D22DDE17090016454E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6ADE3BB2DDE17060016454E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6ADE3C22DDE17060016454E;
+			remoteInfo = SwiftUIConnectVPN;
+		};
+		D6ADE3DC2DDE17090016454E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6ADE3BB2DDE17060016454E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6ADE3C22DDE17060016454E;
+			remoteInfo = SwiftUIConnectVPN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6ADE3C32DDE17060016454E /* SwiftUIConnectVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIConnectVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ADE3D12DDE17090016454E /* SwiftUIConnectVPNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIConnectVPNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ADE3DB2DDE17090016454E /* SwiftUIConnectVPNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIConnectVPNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6ADE3C52DDE17060016454E /* SwiftUIConnectVPN */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIConnectVPN;
+			sourceTree = "<group>";
+		};
+		D6ADE3D42DDE17090016454E /* SwiftUIConnectVPNTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIConnectVPNTests;
+			sourceTree = "<group>";
+		};
+		D6ADE3DE2DDE17090016454E /* SwiftUIConnectVPNUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIConnectVPNUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6ADE3C02DDE17060016454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ADE3CE2DDE17090016454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ADE3D82DDE17090016454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6ADE3BA2DDE17060016454E = {
+			isa = PBXGroup;
+			children = (
+				D6ADE3C52DDE17060016454E /* SwiftUIConnectVPN */,
+				D6ADE3D42DDE17090016454E /* SwiftUIConnectVPNTests */,
+				D6ADE3DE2DDE17090016454E /* SwiftUIConnectVPNUITests */,
+				D6ADE3C42DDE17060016454E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6ADE3C42DDE17060016454E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6ADE3C32DDE17060016454E /* SwiftUIConnectVPN.app */,
+				D6ADE3D12DDE17090016454E /* SwiftUIConnectVPNTests.xctest */,
+				D6ADE3DB2DDE17090016454E /* SwiftUIConnectVPNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6ADE3C22DDE17060016454E /* SwiftUIConnectVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ADE3E52DDE17090016454E /* Build configuration list for PBXNativeTarget "SwiftUIConnectVPN" */;
+			buildPhases = (
+				D6ADE3BF2DDE17060016454E /* Sources */,
+				D6ADE3C02DDE17060016454E /* Frameworks */,
+				D6ADE3C12DDE17060016454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6ADE3C52DDE17060016454E /* SwiftUIConnectVPN */,
+			);
+			name = SwiftUIConnectVPN;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIConnectVPN;
+			productReference = D6ADE3C32DDE17060016454E /* SwiftUIConnectVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6ADE3D02DDE17090016454E /* SwiftUIConnectVPNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ADE3E82DDE17090016454E /* Build configuration list for PBXNativeTarget "SwiftUIConnectVPNTests" */;
+			buildPhases = (
+				D6ADE3CD2DDE17090016454E /* Sources */,
+				D6ADE3CE2DDE17090016454E /* Frameworks */,
+				D6ADE3CF2DDE17090016454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6ADE3D32DDE17090016454E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6ADE3D42DDE17090016454E /* SwiftUIConnectVPNTests */,
+			);
+			name = SwiftUIConnectVPNTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIConnectVPNTests;
+			productReference = D6ADE3D12DDE17090016454E /* SwiftUIConnectVPNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6ADE3DA2DDE17090016454E /* SwiftUIConnectVPNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ADE3EB2DDE17090016454E /* Build configuration list for PBXNativeTarget "SwiftUIConnectVPNUITests" */;
+			buildPhases = (
+				D6ADE3D72DDE17090016454E /* Sources */,
+				D6ADE3D82DDE17090016454E /* Frameworks */,
+				D6ADE3D92DDE17090016454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6ADE3DD2DDE17090016454E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6ADE3DE2DDE17090016454E /* SwiftUIConnectVPNUITests */,
+			);
+			name = SwiftUIConnectVPNUITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIConnectVPNUITests;
+			productReference = D6ADE3DB2DDE17090016454E /* SwiftUIConnectVPNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6ADE3BB2DDE17060016454E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D6ADE3C22DDE17060016454E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D6ADE3D02DDE17090016454E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D6ADE3C22DDE17060016454E;
+					};
+					D6ADE3DA2DDE17090016454E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D6ADE3C22DDE17060016454E;
+					};
+				};
+			};
+			buildConfigurationList = D6ADE3BE2DDE17060016454E /* Build configuration list for PBXProject "SwiftUIConnectVPN" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6ADE3BA2DDE17060016454E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6ADE3C42DDE17060016454E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6ADE3C22DDE17060016454E /* SwiftUIConnectVPN */,
+				D6ADE3D02DDE17090016454E /* SwiftUIConnectVPNTests */,
+				D6ADE3DA2DDE17090016454E /* SwiftUIConnectVPNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6ADE3C12DDE17060016454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ADE3CF2DDE17090016454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ADE3D92DDE17090016454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6ADE3BF2DDE17060016454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ADE3CD2DDE17090016454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ADE3D72DDE17090016454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6ADE3D32DDE17090016454E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6ADE3C22DDE17060016454E /* SwiftUIConnectVPN */;
+			targetProxy = D6ADE3D22DDE17090016454E /* PBXContainerItemProxy */;
+		};
+		D6ADE3DD2DDE17090016454E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6ADE3C22DDE17060016454E /* SwiftUIConnectVPN */;
+			targetProxy = D6ADE3DC2DDE17090016454E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6ADE3E32DDE17090016454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6ADE3E42DDE17090016454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D6ADE3E62DDE17090016454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIConnectVPN/SwiftUIConnectVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIConnectVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6ADE3E72DDE17090016454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIConnectVPN/SwiftUIConnectVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIConnectVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D6ADE3E92DDE17090016454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIConnectVPNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIConnectVPN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIConnectVPN";
+			};
+			name = Debug;
+		};
+		D6ADE3EA2DDE17090016454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIConnectVPNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIConnectVPN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIConnectVPN";
+			};
+			name = Release;
+		};
+		D6ADE3EC2DDE17090016454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIConnectVPNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftUIConnectVPN;
+			};
+			name = Debug;
+		};
+		D6ADE3ED2DDE17090016454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIConnectVPNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftUIConnectVPN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6ADE3BE2DDE17060016454E /* Build configuration list for PBXProject "SwiftUIConnectVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ADE3E32DDE17090016454E /* Debug */,
+				D6ADE3E42DDE17090016454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ADE3E52DDE17090016454E /* Build configuration list for PBXNativeTarget "SwiftUIConnectVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ADE3E62DDE17090016454E /* Debug */,
+				D6ADE3E72DDE17090016454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ADE3E82DDE17090016454E /* Build configuration list for PBXNativeTarget "SwiftUIConnectVPNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ADE3E92DDE17090016454E /* Debug */,
+				D6ADE3EA2DDE17090016454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ADE3EB2DDE17090016454E /* Build configuration list for PBXNativeTarget "SwiftUIConnectVPNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ADE3EC2DDE17090016454E /* Debug */,
+				D6ADE3ED2DDE17090016454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6ADE3BB2DDE17060016454E /* Project object */;
+}
